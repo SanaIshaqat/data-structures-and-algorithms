@@ -24,24 +24,12 @@ function lower(str) {
 const updateAnimal = (arr, callback) => {
   // Solution code here...
   let newArr=[];
-arr.forEach(element=>{
- newArr.push(`${element.upper()}`);
-});
+ arr.map(e=>{
+newArr.push(callback(e));
+ })
+
 return newArr;
-
-
 };
-const updateAnimal = (arr, callback) => {
-  // Solution code here...
-  let newArr=[];
-arr.forEach(element=>{
- newArr.push(`${element.lower()}`);
-});
-return newArr;
-
-
-};
-
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
@@ -53,9 +41,7 @@ For example: 'Cat' would come before 'apple'
 
 const sortNames = (arr) => {
   // Solution code here...
-  arr.sort(function(a,b){
-    return a.localeCompare(b);
-});
+  arr.sort();
 return arr;
 };
 
@@ -86,6 +72,10 @@ HINT: Do it with a custom sort callback, not with using `.reverse()`. ;)
 
 const sortBackwards = (arr) => {
   // Solution code here...
+  arr.sort(function(a,b){
+    return b-a;
+  });
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -100,6 +90,8 @@ For example, ['Alphabet', 'Zebra', 'alphabet', 'carrot'] is correctly sorted.
 
 const alphabetize = (arr) => {
   // Solution code here...
+  arr.sort();
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
