@@ -22,4 +22,16 @@ To run your tests
 
 - Table Of Content:
 
-[array-reverse](/mnt/c/Users/ishaq/desktop/301projects/data-structures-and-algorithms/javascript/array-reverse/README.md)
+[array-reverse](javascript/array-reverse/README.md)
+
+[array-binary-search](javascript/array-binary-search/README.md)
+
+[array-insert-shift](javascript/array-insert-shift/README.md)
+
+[array-matrix-sum](javascript/array-matrix-sum/README.md)
+
+[singly-linked-list](javascript/singly-linked-list/README.md)
+
+[linked-list-insertions](javascript/linked-list-insertions/README.md)
+
+
