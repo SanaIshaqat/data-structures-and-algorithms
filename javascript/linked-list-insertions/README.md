@@ -34,6 +34,9 @@ adds a new node with the given new value immediately after the first node that h
 * ### Thought about the algorithm 
 * ### Wrote the coding depending on today's demo
 * ### I created the node test as well as LinkedList test
+
+![](Challenge06.jpg)
+
 ## API
 <!-- Description of each method publicly available to your Linked List -->
 
