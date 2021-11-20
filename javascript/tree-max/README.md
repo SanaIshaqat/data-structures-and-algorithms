@@ -1,8 +1,8 @@
 
-# Trees
+# Max-Tree
 <!-- Short summary or background information -->
 ## Challenge Setup & Execution
-### Branch Name: trees
+### Branch Name: max-tree
 
 ## Features
 
@@ -51,12 +51,18 @@ Utilize the Single-responsibility principle: any methods you write should be cle
 * ### Thought about the algorithm 
 * ### Wrote the coding depending on today's demo
 * ### I created the node test as well as LinkedList test
-![](BT.png)
+
+![](Challenge16.jpg)
 
 ## API
 <!-- Description of each method publicly available to your Linked List -->
+Write the following method for the Binary Tree class
 
+find maximum value
+Arguments: none
+Returns: number
+Find the maximum value stored in the tree. You can assume that the values stored in the Binary Tree will be numeric.
 
 ## Test
 ### npm run test 
-![](CC15PassedTests.PNG)
+![](CC16PassedTests.PNG)
