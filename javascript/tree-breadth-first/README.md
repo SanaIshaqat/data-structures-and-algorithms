@@ -1,5 +1,5 @@
 
-# Max-Tree
+# Tree-breadth-first
 <!-- Short summary or background information -->
 ## Challenge Setup & Execution
 ### Branch Name: max-tree
