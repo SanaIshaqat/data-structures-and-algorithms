@@ -2,7 +2,7 @@
 # Tree-breadth-first
 <!-- Short summary or background information -->
 ## Challenge Setup & Execution
-### Branch Name: max-tree
+### Branch Name: tree-breadth-first
 
 ## Features
 
