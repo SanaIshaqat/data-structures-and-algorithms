@@ -46,7 +46,7 @@ Write a function that LEFT JOINs two hashmaps into a single data structure.
  
 ### Whiteboard
 
-![](Challenge34.jpg)
+![](Challenge35.jpg)
 
 ### Tests
-![](CC34PassedTests.PNG)
+![](CC35PassedTests.PNG)
